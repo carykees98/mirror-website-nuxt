@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf) format("truetype");
+}
+
+:root {
+  --header-link: white;
+  --footer-link: white;
+}
+
+:root {
+  --dark-bg: rgb(20, 20, 20);
+  --dark-text: white;
+  --dark-body-link: rgb(68, 178, 68);
+}
+
+:root {
+  --light-bg: white;
+  --light-text: black;
+  --light-body-link: rgb(40, 104, 40);
+}
+
+html {
+  all: unset;
+
+  font-family: "Roboto";
+}
+
+body {
+  all: unset;
+  padding: 0px 5%;
+  height: 100%;
+}
+
+.light-mode body {
+  background-color: var(--light-bg);
+  color: black;
+}
+
+.dark-mode body {
+  background-color: var(--dark-bg);
+  color: white;
+}
+
+.light-mode main a {
+  color: var(--light-body-link);
+}
+
+.dark-mode main a {
+  color: var(--dark-body-link);
+}
