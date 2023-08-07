@@ -1,12 +1,10 @@
 <template>
   <PageHeader />
-  <NuxtPage />
+  <div class="body">
+    <NuxtPage />
+  </div>
   <PageFooter />
 </template>
 
 <script setup lang="ts">
 </script>
-
-<style>
-@import url(./assets/styles/global.css);
-</style>
