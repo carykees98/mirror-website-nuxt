@@ -7,7 +7,7 @@
 const route = useRoute();
 
 const pageInfo = {
-	title: "Mirror - Home",
+	title: "Mirror - Projects",
 	description: "A public repository of free and open source software located at Clarkson University in Potsdam, NY, US.",
 	image: "",
 }

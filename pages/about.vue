@@ -5,7 +5,7 @@
 
 <script setup lang="ts">
 const pageInfo = {
-	title: "Mirror - Home",
+	title: "Mirror - About",
 	description: "A public repository of free and open source software located at Clarkson University in Potsdam, NY, US.",
 	image: "",
 }
