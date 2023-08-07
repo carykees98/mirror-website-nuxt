@@ -6,9 +6,4 @@ export default defineNuxtConfig({
     preference: "system",
     fallback: "dark",
   },
-  app: {
-    head: {
-      charset: "utf-8",
-    },
-  },
 });
