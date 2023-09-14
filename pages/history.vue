@@ -1,14 +1,24 @@
 <template>
 	<main>
-		<h1>Welcome to Mirror</h1>
+		<div id="history">
+			<h1>History</h1>
+			<p></p>
+		</div>
+		<div id="sponsors">
+			<h1>Sponsors</h1>
+			<p></p>
+		</div>
+		<div id="request">
+			<h1>Request a Mirror</h1>
+			<p></p>
+		</div>
 	</main>
 </template>
 
 <script setup lang="ts">
-
 const pageInfo = {
-	title: "Mirror - Home",
-	description: "",
+	title: "Mirror - History",
+	description: "A public repository of free and open source software located at Clarkson University in Potsdam, NY, US.",
 	image: "",
 }
 
@@ -21,7 +31,7 @@ useServerSeoMeta({
 	twitterDescription: pageInfo.description,
 	ogImage: pageInfo.image,
 	twitterImage: pageInfo.image,
-	ogUrl: "https://mirror.clarkson.edu/",
+	ogUrl: "https://mirror.clarkson.edu/about",
 	twitterCard: 'summary'
 })
 
@@ -38,14 +48,3 @@ useHead({
 	]
 })
 </script>
-
-<style scoped>
-main {
-	margin-top: 4%;
-	text-align: center;
-}
-
-h1 {
-	font-size: 60px;
-}
-</style>

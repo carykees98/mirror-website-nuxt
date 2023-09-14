@@ -1,10 +1,29 @@
-<template></template>
+<template>
+	<button @click="" class="modeSwitch">
+		<Icon :name="iconNames[2]" size="30px" />
+	</button>
+</template>
 
 <script setup lang="ts">
-const colorMode = useColorMode();
+enum colorStates {
+	'system',
+	'dark',
+	'light'
+}
 
+const iconNames = ['mdi:theme-light-dark', 'mdi:weather-night', 'mdi:white-balance-sunny']
+
+const modeSwitch = () => {
+
+}
 
 </script>
 
-
-<style scoped></style>
+<style scoped>
+.modeSwitch {
+	height: 40px;
+	width: 40px;
+	border: none;
+	border-radius: 10px;
+}
+</style>

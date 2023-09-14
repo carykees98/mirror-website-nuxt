@@ -1,14 +1,19 @@
 <template>
   <header v-once>
-    <div class="buttons">
+    <section class="buttons">
+      <NuxtLink to="https://www.clarkson.edu">
+        <NuxtImg class="img" height="60px" src="../public/ClarksonShield.png" />
+      </NuxtLink>
+      <NuxtLink to="/" class="homeLink">Mirror</NuxtLink>
+    </section>
 
-    </div>
+    <section class="nav">
+      <NavMenu />
+    </section>
 
-    <NavMenu />
-
-    <div class="buttons">
-
-    </div>
+    <section class="buttons">
+      <DarkModeButton />
+    </section>
   </header>
 </template>
 
@@ -19,18 +24,39 @@
 <style scoped>
 header {
   width: 100%;
+  height: 80px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.dark-mode header {
+  border-bottom: 2px solid rgb(40, 40, 40);
+  background-color: rgb(0, 50, 0);
+}
+
+.light-mode header {
+  border-bottom: 2px solid rgb(230, 230, 230);
+  background-color: rgb(40, 104, 40);
+}
+
+section {
+  display: inline-block;
+  margin: auto;
+  height: 100%;
+  vertical-align: top;
 }
 
 div .buttons {
-  min-width: 33%;
-  width: 33%;
+  padding: 10px;
+  width: calc(25% - 20px);
+  vertical-align: middle;
 }
 
-nav {
-  width: 34%;
+.nav {
+  width: 50%;
 }
 
-a {
-  color: var(--header-link)
+.homeLink {
+  color: white;
+  text-decoration: none;
 }
 </style>

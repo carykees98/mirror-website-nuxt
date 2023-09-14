@@ -6,4 +6,5 @@ export default defineNuxtConfig({
     preference: "system",
     fallback: "dark",
   },
+  css: ["~/assets/styles/global.css"],
 });

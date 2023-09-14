@@ -4,11 +4,6 @@
 }
 
 :root {
-  --header-link: white;
-  --footer-link: white;
-}
-
-:root {
   --dark-bg: rgb(20, 20, 20);
   --dark-text: white;
   --dark-body-link: rgb(68, 178, 68);
@@ -26,10 +21,22 @@ html {
   font-family: "Roboto";
 }
 
+#__nuxt {
+  padding: 0px 5%;
+  max-width: 2500px;
+  min-height: 100%;
+  margin: auto;
+}
+
 body {
   all: unset;
-  padding: 0px 5%;
   height: 100%;
+}
+
+.body {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .light-mode body {
