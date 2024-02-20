@@ -5,13 +5,13 @@
 				<NuxtLink class="link" to="/projects">Projects</NuxtLink>
 			</li>
 			<li>
-				<NuxtLink class="link" to="/map">Map</NuxtLink>
+				<NuxtLink class="link" to="/history">History</NuxtLink>
 			</li>
 			<li>
 				<NuxtLink class="link" to="/">Home</NuxtLink>
 			</li>
 			<li>
-				<NuxtLink class="link" to="/history">History</NuxtLink>
+				<NuxtLink class="link" to="/map">Map</NuxtLink>
 			</li>
 			<li>
 				<NuxtLink class="link" to="/contact">Contact</NuxtLink>
