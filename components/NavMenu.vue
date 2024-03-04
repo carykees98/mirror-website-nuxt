@@ -65,13 +65,17 @@ li {
 }
 
 .link:hover {
+	/* animation: 0.05s ease-in 0s forwards pop; */
 	text-decoration: underline;
-	animation: pop 0.4s ease-in-out;
 }
 
-@keyframes pop {
-	50% {
-		transform: scale(1.25);
+/* @keyframes pop {
+	0% {
+		font-size: 24px;
 	}
-}
+
+	100% {
+		font-size: 26px;
+	}
+} */
 </style>

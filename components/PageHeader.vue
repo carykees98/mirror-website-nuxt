@@ -11,7 +11,7 @@
       <NavMenu />
     </section>
 
-    <section class="buttons">
+    <section class="buttons right-side">
       <DarkModeButton />
     </section>
   </header>
@@ -45,10 +45,17 @@ section {
   vertical-align: top;
 }
 
-div .buttons {
-  padding: 10px;
+.right-side {
+  position: relative
+}
+
+.buttons {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
   width: calc(25% - 20px);
   vertical-align: middle;
+  height: 72px;
 }
 
 .nav {
@@ -58,5 +65,9 @@ div .buttons {
 .homeLink {
   color: white;
   text-decoration: none;
+  font-size: 44px;
+  position: absolute;
+  top: 15px;
+  text-indent: 0.75rem;
 }
 </style>
