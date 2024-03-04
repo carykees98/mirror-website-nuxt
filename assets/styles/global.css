@@ -51,8 +51,15 @@ body {
 
 .light-mode main a {
   color: var(--light-body-link);
+  text-decoration: none;
 }
 
 .dark-mode main a {
   color: var(--dark-body-link);
+  text-decoration: none;
+}
+
+main {
+  align-self: center;
+  max-width: 1100px;
 }
